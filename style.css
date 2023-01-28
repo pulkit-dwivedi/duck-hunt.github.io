@@ -1,0 +1,118 @@
+
+body {
+    background-image: url(images/background.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+}
+
+#blood {
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.duck {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    display: inline-block;
+    left: 35rem;
+    top: 10rem;
+    transition: all linear 1s;
+}
+.duck1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    display: inline-block;
+    left: 35rem;
+    top: 10rem;
+    transition: all linear 1s;
+}
+
+#target {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 35rem;
+    top: 12rem;
+}
+
+.container {
+    position: relative;
+}
+
+#btn {
+    position: absolute;
+    color: blue;
+    width: 20vw;
+    height: 10vh;
+    transform: translate(-50%, -50%);
+    left: 38rem;
+    top: 15rem;
+    z-index: 11;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#result{
+    width: 25rem;
+    height: 20rem;
+    background-color: rgba(236, 193, 236, 0.642);
+    position: absolute;
+    left: 40rem;
+    top: 20rem;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    border-radius: 1rem;
+    display: none;
+}
+#time{
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 2rem;
+    padding: 0;
+    display: inline-block;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#cut{
+    background-color: aqua;
+}
+#h1{
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+#h2{
+    font-size: 6rem;
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+}
+#playagain{
+    background-color: bisque;
+    width: 10rem;
+    height: 3rem;
+    position: absolute;
+    left: 7rem;
+    top: 16rem;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 1rem;
+}
